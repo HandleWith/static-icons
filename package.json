@@ -1,0 +1,12 @@
+{
+  "name": "static-icons",
+  "version": "1.0.0",
+  "type": "module",
+  "dependencies": {
+    "lucide-static": "^0.546.0",
+    "simple-git": "^3.28.0"
+  },
+  "scripts": {
+    "upload:icons": "node upload-icons.js"
+  }
+}

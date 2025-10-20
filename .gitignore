@@ -1,0 +1,25 @@
+# Node.js
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# IDE / OS
+.vscode/
+.DS_Store
+*.log
+
+# Сборка / временные файлы
+dist/
+build/
+.temp/
+*.tsbuildinfo
+
+# Кэш и локальные данные
+.cache/
+.env
+
+# Исключаем папку icons только если не хотим хранить иконки в репо
+# Убираем комментарий, если нужно хранить icons
+# icons/
